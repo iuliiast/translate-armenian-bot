@@ -4,8 +4,6 @@ dotenv.config();
 const token = process.env.TELEGRAM_API_TOKEN;
 const bot = new TelegramBot(token, { polling: true });
 
-// https://translate.google.com/?sl=hy&tl={targetlang}&text={text}&op=translate
-
 const latin = {
   "a": "ա",
   "b": "բ",
